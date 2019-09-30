@@ -1,0 +1,12 @@
+{
+  "name": "a-brighter-future",
+  "sources": {
+      "dir": "src",
+      "subdirs": true
+  },
+  "refmt": 3,
+  "bs-dependencies": ["reason-future"],
+  "ppx-flags": [
+    "let-anything/lib/bs/native/let_anything.native"
+  ]
+}
